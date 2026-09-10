@@ -1,16 +1,69 @@
-# React + Vite
+# TERRA
+A small botanical business based in Portland, Oregon that provides plants and services for people's gardening needs.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ABOUT
+This is a single--page website design to be simple yet informative showcasing the businesses brand identity and personality.
 
-Currently, two official plugins are available:
+## Features
+- Responsive design (Mobile, Table, and Desktop)
+- Modern, clean, and simple UI
+- Component-based architecure using React.JS
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Future Improvements
 
-## React Compiler
+- Fluid responsivness
+- Improve accessibility
+- Animations
+- Interactivity
+- SEO
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Techstack
 
-## Expanding the ESLint configuration
+- React.JS
+- Vite
+- HTML5
+- CSS3
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Getting Started
+
+### Prerequiesits
+
+Make sure you have the following installed:
+- Node.JS (comes with npm)
+- Git
+
+### Installation
+
+1. Clone the repository
+`git clone https://github.com/knaur-onn/Terra.git`
+
+2. Navigate to the project directory
+`cd plant-website`
+
+3. Install project dependencies
+`npm install`
+
+4. Start the development server
+`npm run dev` - this will run on locally on your computer
+`npm run dev -- --host` this will make the project visible to your local network
+
+5. Vite will provide a local development URL, usually:
+`http://localhost:5173/`
+
+*Note: Vite will provide a separate link/IP Address for etherenet connection and WiFi connection when using `npm run dev -- -host` so check the IP address specifically for your connection in your local network* 
+
+## My Journey
+
+I have applied numerous UI/UX principles and best coding practices when developing this project particularly in:
+
+- React component development
+- Vite
+- CSS layouts
+- Responsive web design
+- Project organization
+- Git & GitHub
+- UI/UX principles
+
+## Author
+**Nur Azril Onkassim**
+*Front-end Developer* 
