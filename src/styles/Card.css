@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+.card-container{
+    background-color: white;
+    padding: 1.4rem 1.5rem;
+    border: solid 1px #E0D5C7;
+    border-radius: 20px;
+}
+
+.card-logo, .card-header{
+    margin-bottom: 0.7rem;
+}
+
+.card-header{
+    color: #1C2E24;
+    font-family: "Fraunces", serif;
+}
+
+.card-subheader{
+    color: #4A564E;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 0.8rem;
+    line-height: 150%;
+}

@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+.main-text{
+    font-family: "Fraunces", serif;
+}
+
+.sub-text{
+    font-family: "Instrument Sans", sans-serif;
+}
+
+.address-section{
+    height: auto;
+    background-color: #FAF6F0;
+    padding: 2rem 1.5rem;
+}
+
+.address-text-container{
+    padding-bottom: 1rem;
+    padding-right: 1rem;
+}
+
+.address-subtitle{
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+}
+
+.address-title{
+    font-size: 1.68rem;
+    font-weight: 400;
+}
+
+.address-description{
+    color: #4A564E;
+    font-size: 0.85rem;
+    line-height: 150%;
+}
+
+.text{
+    margin-bottom: 0.8rem;
+}
+
+.address-info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.address-location, .address-schedule{
+    display: inline-block;
+    width: 50%;
+}
+
+.location-title, .schedule-title{
+    margin-bottom: 0.3rem;
+}
+
+.location-text, .schedule-text{
+    color: #4A564E;
+    font-size: 0.9rem;
+}
+
+.address-map-container{
+    width: 100%;
+    height: 35vh;
+    border: solid #E0D5C7 2px;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.address-map-container iframe{
+    width: 100%;
+    height: 100%;
+    border: 0;
+    display: block;
+}
+
+.form-container{
+    background-color: #1c2e24;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    padding: 1.8rem;
+    border-radius: 20px;
+}
+
+.newsletter-title{
+    font-weight: 400;
+}
+
+.newsletter-description{
+    font-weight: 100;
+    font-size: 0.75rem;
+    text-align: center;
+    line-height: 150%;
+    opacity: 70%;
+}
+
+.form-details{
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 0.8rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.form-details *{
+    width: 100%;
+    height: auto;
+    border-radius: 20px;
+    padding: 0.5rem;
+    border: none;
+}
+
+.form-email{
+    background-color: #31443a;
+    color: white;
+    border: solid #66736c 1px;
+    outline: none;
+    padding: 0.8rem;
+}
+
+.form-email::placeholder{
+    color: white;
+    opacity: 60%;
+}
+
+.form-button{
+    font-weight: 500;
+    padding: 0.8rem;
+}
+
+@media (min-width: 768px) {
+    .address-section{
+        display: flex;
+        gap: 1.5rem;
+        flex-direction: column;
+        padding-bottom: 4rem;
+    }
+
+    .address-map-container{
+        display: flex;
+        width: 100%;
+        height: 20vh;
+        margin-bottom: 0;
+    }
+    .form-container{
+        padding: 2rem 10rem;
+    }
+
+    .newsletter-title{
+        font-size: 2rem;
+    }
+
+    .newsletter-description{
+        font-size: 1rem;
+    }
+    
+    .form-details{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .form-email{
+        flex: 4;
+    }
+
+    .form-button{
+        flex: 1;
+    }
+}

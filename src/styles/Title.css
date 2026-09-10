@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+.title-container{
+    text-align: center;
+}
+
+.title-small-header{
+    color: #4F6B58;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    margin-bottom: 0.6rem;
+}
+
+.title-header{
+    font-family: "Fraunces", serif;
+    font-size: 1.68rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
+}

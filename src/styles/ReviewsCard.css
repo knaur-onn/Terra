@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+.reviews-card-container{
+    background-color: white;
+    padding: 1.5rem 1.5rem;
+    border: solid #E0D5C7 1px;
+    border-radius: 20px;
+    margin-bottom: 1rem;
+}
+
+.reviews-text{
+    font-family: "Fraunces", serif;
+    font-style: italic;
+    line-height: 150%;
+}
+
+.reviews-author, .reviews-author-title{
+    font-family: "Instrument Sans", sans-serif;
+}
+
+.reviews-author{
+    color: #1C2E24;
+    font-weight: 600;
+}
+
+.reviews-author-title{
+    color: #4A564E;
+    font-size: 0.9rem;
+}
+
+.reviews-count, .reviews-text{
+    margin-bottom: 1rem;
+}
+
