@@ -1,15 +1,15 @@
-# TERRA
+# 🪴TERRA 
 A small botanical business based in Portland, Oregon that provides plants and services for people's gardening needs.
 
-## ABOUT
+## 🗒️About
 This is a single--page website design to be simple yet informative showcasing the businesses brand identity and personality.
 
-## Features
+## 📌Features
 - Responsive design (Mobile, Table, and Desktop)
 - Modern, clean, and simple UI
 - Component-based architecure using React.JS
 
-## Future Improvements
+## 📈 Future Improvements 
 
 - Fluid responsivness
 - Improve accessibility
@@ -17,22 +17,22 @@ This is a single--page website design to be simple yet informative showcasing th
 - Interactivity
 - SEO
 
-## Techstack
+## 🧱 Techstack
 
 - React.JS
 - Vite
 - HTML5
 - CSS3
 
-## Getting Started
+## 🚀Getting Started
 
-### Prerequiesits
+### 📋Prerequiesits
 
 Make sure you have the following installed:
 - Node.JS (comes with npm)
 - Git
 
-### Installation
+### 📥Installation
 
 1. Clone the repository
 `git clone https://github.com/knaur-onn/Terra.git`
@@ -52,7 +52,7 @@ Make sure you have the following installed:
 
 *Note: Vite will provide a separate link/IP Address for etherenet connection and WiFi connection when using `npm run dev -- -host` so check the IP address specifically for your connection in your local network* 
 
-## My Journey
+## 🧭My Journey
 
 I have applied numerous UI/UX principles and best coding practices when developing this project particularly in:
 
@@ -64,6 +64,6 @@ I have applied numerous UI/UX principles and best coding practices when developi
 - Git & GitHub
 - UI/UX principles
 
-## Author
-**Nur Azril Onkassim**
+## 🔨Author
+**Nur Azril Onkassim** <br>
 *Front-end Developer* 
