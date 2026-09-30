@@ -5,12 +5,12 @@ function Landing() {
   return (
     <>
       <section className="landing-page">
-        <div className="landing-text text">
-          <h4 className="landing-small-header text">BOTANICAL MODERNISM</h4>
-          <h1 className="landing-header text">
+        <div className="landing-text text-landing">
+          <h4 className="landing-small-header text-landing">BOTANICAL MODERNISM</h4>
+          <h1 className="landing-header text-landing">
             Bringing nature indoor, shaped by intent
           </h1>
-          <p className="landing-subheader text">
+          <p className="landing-subheader text-landing">
             Terra curates robust, uncommon houseplants and designer ceramic
             ware. Hand-selected, potted with care, and shipped to seamlessly
             transform your living space.
