@@ -7,7 +7,7 @@
     padding: min(3em, 6%);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 2rem;
+    gap: 1.5rem;
 }
 
 .landing-small-header{
@@ -33,6 +33,13 @@
     line-height: 150%;
 }
 
+.landing-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: min(1em, 8%);
+}
+
 .text-landing{
     margin-bottom: 1.3rem;
 }
@@ -48,8 +55,8 @@
     height: auto;  
     border: none;
     border-radius: 20px;
-    padding: min(0.8em, 4%) min(0.1em, 8%); 
-    font-size: clamp(0.8rem, 1.2vw, 2rem);
+    padding: min(0.7em, 4%) min(0.2em, 8%); 
+    font-size: clamp(0.8rem, 1vw, 2rem);
     flex: 1 1 200px;
 }
 
@@ -81,7 +88,7 @@
        flex-wrap: nowrap;
     }
     .cta-button{
-        max-width: 200px;
+        max-width: 150px;
     }
 }
 
