@@ -4,6 +4,8 @@ import monstera from "../assets/monstera-deliciosa.svg";
 import calathea from "../assets/calathea-orbifona.svg";
 import fiddle from "../assets/fiddle-leaf.svg";
 import laurentii from "../assets/laurentii.svg";
+import arbequina from "../assets/arbequina.svg";
+import emerald from "../assets/emerald.svg";
 
 import "../styles/Collections.css";
 
@@ -43,6 +45,20 @@ function Collections() {
             productName="Laurentii Snake Plant"
             productSubName="Sansevieria Trifasciata"
             price="$38.00"
+          />
+          <ImageCard
+            image={arbequina}
+            tag="RARE FIND"
+            productName="Arbequina Olive Tree"
+            productSubName="Olea europaea"
+            price="$95.00"
+          />
+          <ImageCard
+            image={emerald}
+            tag="HOUSE WARMING"
+            productName="Emerald ZZ Plant"
+            productSubName="Zamioculcas"
+            price="$42.00"
           />
         </div>
       </section>

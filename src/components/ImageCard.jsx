@@ -1,6 +1,6 @@
 import "../styles/ImageCard.css";
 
-function ImageCard({ image, tag, productName, productSubName, price }) {
+function ImageCard({ image, tag, productName, productSubName, price}) {
   return (
     <>
       <div className="image-card-container">

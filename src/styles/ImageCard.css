@@ -3,7 +3,8 @@
 
 
 .image-card-container{
-    margin-bottom: 0.7rem;
+    /* margin-bottom: 0.7rem; */
+    width: min(100%, 560px);
 }
 
 .image-container{
@@ -13,7 +14,9 @@
 .image{
     width: 100%;
     height: auto;
-    object-fit: contain;
+    object-fit: cover;
+    aspect-ratio: 1 / 1;
+    border-radius: 15px;
 }
 
 .image-tag{
@@ -32,11 +35,21 @@
 .text-container{
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 1rem;
     padding: 0.7rem 0;
+}
+
+.text-left{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    flex-wrap: wrap ;
 }
 
 .product-name{
     font-family: "Fraunces", serif;
+    
 }
 
 .product-subname, .product-price{
@@ -55,3 +68,5 @@
 .product-price{
     font-weight: 600;
 }
+
+
