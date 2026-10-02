@@ -23,10 +23,10 @@
     background-color: white;
     display: inline-block;
     font-family: "Instrument Sans", sans-serif;
-    font-size: 0.6rem;
+    font-size: clamp(0.6rem, 1vw, 0.65rem);
     font-weight: 500;
     border-radius: 10px;
-    padding: 0.2rem 0.5rem;
+    padding: min(0.8em, 2.6%);
     position: absolute;
     top: 0.8rem;
     left: 0.8rem;
@@ -59,14 +59,16 @@
 .product-subname{
     font-size: 0.8rem;
     font-style: italic;
+    font-size: clamp(0.8rem, 1vw, 1.5rem);
 }
 
 .product-name{
-    font-size: 1.15rem;
+    font-size: clamp(1.2rem, 1.5vw, 2rem);
 }
 
 .product-price{
     font-weight: 600;
+    font-size: clamp(1.1rem, 1.5vw, 2rem);
 }
 
 

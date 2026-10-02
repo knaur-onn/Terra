@@ -26,10 +26,15 @@
 
 @media (min-width: 1344px) {
     .collections-card{
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(310px, 1fr));
     }
 }
 
+@media (min-width: 1410px) {
+    .collections-card{
+    grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
+    }
+}
 /* @media (min-width: 768px) {
     .collections-card{
         display: grid;
