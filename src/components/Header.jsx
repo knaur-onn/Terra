@@ -13,10 +13,10 @@ function Hero() {
             <img src={logo} alt="" />
           </div>
           <nav className="center-navigation">
-            <a href="">Shop Plants</a>
-            <a href="">Care Simple</a>
-            <a href="">Our Story</a>
-            <a href="">Visit</a>
+            <a href="#">Shop Plants</a>
+            <a href="#">Care Simple</a>
+            <a href="#">Our Story</a>
+            <a href="#">Visit</a>
           </nav>
           <nav className="header-navigation">
             {/* Update element to be clickable */}
