@@ -17,13 +17,13 @@ function CareTips() {
             image={method1}
             subheader="METHOD 01"
             header="Assess the microclimate first"
-            description="Plants don't just consume light; they consume stability. Identify natural drafts before designating a pot location."
+            description="Plants don't just consume light; they consume stability. Identify your room's natural drafts, humidity hubs, and consistent light bands before designating a pot location."
           />
           <MethodCard
             image={method2}
             subheader="METHOD 02"
             header="The tactile saturation rule"
-            description="Submerge your index finger two inches into top soil — water if dry and powdery. Avoid rigid calendars."
+            description="Never water on a rigid calendar schedule. Submerge your index finger two inches into the top soil — if it feels dry and powdery, saturate evenly until water runs through the drainage base."
             isInverted={true}
           />
         </div>

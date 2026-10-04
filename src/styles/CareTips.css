@@ -3,10 +3,16 @@
 
 .caretips-section{
     background-color: #F4EDE2;
-    padding: 2rem 1.5rem;
+    padding: min(3em, 6%);
 }
 
-@media (min-width: 768px) {
+.caretips-card{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+/* @media (min-width: 768px) {
    
 }
 
@@ -14,4 +20,4 @@
     .caretips-section{
         padding: 4rem 3rem;
     }
-}
+} */
