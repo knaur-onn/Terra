@@ -5,6 +5,7 @@
 .landing-page{
     background-color: #FAF6F0;
     padding: min(3em, 6%);
+    padding-inline: clamp(1rem, 11vw, 20rem);
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 1.5rem;

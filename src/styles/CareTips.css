@@ -4,6 +4,7 @@
 .caretips-section{
     background-color: #F4EDE2;
     padding: min(3em, 6%);
+    padding-inline: clamp(1rem, 11vw, 20rem);
 }
 
 .caretips-card{
