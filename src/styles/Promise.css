@@ -20,15 +20,3 @@
     justify-content: center;
     gap: 1.5rem;
 }
-
-/* @media (min-width: 768px) {
-    .promise-card{
-        flex-direction: row;
-    }
-}
-
-@media (min-width: 1020px) {
-    .promise-section{
-        padding: 4rem 3rem;
-    }
-} */

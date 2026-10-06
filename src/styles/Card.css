@@ -9,7 +9,7 @@
     border: solid 1px #E0D5C7;
     border-radius: 20px;
     flex: 1 1 200px;
-    max-width: 1200px;
+    max-width: 400px;
 }
 
 .card-logo{
@@ -33,12 +33,3 @@
     line-height: 150%;
 }
 
-    /* @media (min-width: 473px) {
-        .card-container{
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            text-align: center;
-        }    
-    } */

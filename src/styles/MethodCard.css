@@ -15,6 +15,7 @@
     height: 100%;
     object-fit: cover;
     aspect-ratio: 16 / 10;
+    border-radius: 15px;
 }
 
 .method-card-text{
@@ -63,21 +64,4 @@
         flex-direction: row-reverse;
     }
 
-    /* .method-image-container{
-        height: 100%;
-        width: 100%;
-    }
-
-    .method-card-text{
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    } */
 }
-
-/* @media (min-width: 1024px) {
-    .method-image-container{
-        width: 40%;
-        height: auto;
-    }
-} */
