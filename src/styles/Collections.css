@@ -9,11 +9,34 @@
 
 .collections-card{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(178px, 1fr));
     gap: 2rem;
 }
 
-@media (min-width: 650px) {
+@media (min-width: 995px) {
+    .collections-card{
+    grid-template-columns: repeat(auto-fit, minmax(calc(200px + 1rem), 1fr));
+    }
+}
+
+@media (min-width: 1231px) {
+    .collections-card{
+    grid-template-columns: repeat(auto-fit, minmax(calc(220px + 3rem), 1fr));
+    }
+}
+
+/* 
+
+@media (min-width: 1252px) {
+    .collections-card{
+    grid-template-columns: repeat(auto-fit, minmax(calc(240px + 20px), 1fr));
+    }
+} */
+
+
+
+
+/* @media (min-width: 650px) {
     .collections-card{
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     }
@@ -35,7 +58,7 @@
     .collections-card{
     grid-template-columns: repeat(auto-fit, minmax(calc(270px + 1rem), 1fr));
     }
-}
+} */
 /* 
 @media (min-width: 1406px) {
     .collections-card{
