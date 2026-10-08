@@ -3,7 +3,6 @@
 
 .card-container{
     background-color: white;
-    /* padding: 1.4rem 1.5rem; */
     padding-block: min(3em, 9%);
     padding-inline: min(2em, 8%);
     border: solid 1px #E0D5C7;

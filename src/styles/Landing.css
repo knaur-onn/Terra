@@ -55,7 +55,8 @@
     height: auto;  
     border: none;
     border-radius: 20px;
-    padding: min(0.7em, 4%) min(0.2em, 8%); 
+    padding-block: min(0.7em, 4%);
+    padding-inline: min(0.2em, 8%); 
     font-size: clamp(0.8rem, 1vw, 2rem);
     flex: 1 1 200px;
 }

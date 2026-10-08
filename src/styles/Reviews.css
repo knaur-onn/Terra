@@ -3,13 +3,22 @@
 
 .reviews-section{
     background-color: #F4EDE2;
-    padding: 2rem 1.5rem;
+    padding-block: min(3em, 6%);
+    padding-inline: clamp(1rem, 11vw, 20rem);
 }
 
-@media (min-width: 768px) {
+
+.reviews-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+/* @media (min-width: 768px) {
     .reviews-card{
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         gap: 1.2rem;
     }
-}
+} */

@@ -67,8 +67,8 @@
     width: 100%;;
     justify-content: center;
     align-items: center;
-    padding-block: min(1em, 4%);
-    padding-inline: min(0.6em, 8%); 
+    padding-block: min(0.7em, 4%);
+    padding-inline: min(0.2em, 8%); 
     border: none;
     border-radius: 20px;
     font-family: "Intrument Sans", sans-serif;
