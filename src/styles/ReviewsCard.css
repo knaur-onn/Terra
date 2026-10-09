@@ -8,13 +8,14 @@
     border-radius: 20px;
     margin-bottom: 1rem;
     flex: 1 1 200px;
-    max-width: 400px;
+    max-width: 2200px;
 }
 
 .reviews-text{
     font-family: "Fraunces", serif;
     font-style: italic;
     line-height: 150%;
+    font-size: clamp(1rem, 1vw, 1.5rem);
 }
 
 .reviews-author, .reviews-author-title{
@@ -24,11 +25,12 @@
 .reviews-author{
     color: #1C2E24;
     font-weight: 600;
+    font-size: clamp(1rem, 1vw, 1.5rem);
 }
 
 .reviews-author-title{
     color: #4A564E;
-    font-size: 0.9rem;
+    font-size: clamp(0.9rem, 1vw, 1.5rem);
 }
 
 .reviews-count, .reviews-text{

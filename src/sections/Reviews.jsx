@@ -9,12 +9,12 @@ function Reviews() {
         <Title subtitle="REVIEWS" mainTitle="Sustained by our community" />
         <div className="reviews-card">
           <ReviewsCard
-            review='"The Calathea arrived pristine. The soil was damp, the packaging was completely biodegradable."'
+            review='The Calathea arrived pristine. The soil was damp, the packaging was completely biodegradable.'
             author="Clara Vance"
             authorTitle="Monstera parent since 2023"
           />
           <ReviewsCard
-            review='"Terra has changed how I furnish my home. Their clay pots match their plants flawlessly."'
+            review='Terra has changed how I furnish my home. Their clay pots match their plants flawlessly.'
             author="Marcus Thorne"
             authorTitle="Interior Designer"
           />
