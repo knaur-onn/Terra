@@ -71,7 +71,7 @@
     padding-inline: min(0.2em, 8%); 
     border: none;
     border-radius: 20px;
-    font-family: "Intrument Sans", sans-serif;
+    font-family: "Instrument Sans", sans-serif;
     font-size: clamp(0.8rem, 1.1vw, 5rem);
     font-weight: 500;
 }

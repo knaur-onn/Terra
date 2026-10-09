@@ -12,28 +12,36 @@
 .address-section{
     height: auto;
     background-color: #FAF6F0;
-    padding: 2rem 1.5rem;
+    padding-block: min(3em, 6%);
+    padding-inline: clamp(1rem, 11vw, 20rem);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    overflow: hidden;
+
 }
 
-.address-text-container{
+/* .address-text-container{
     padding-bottom: 1rem;
     padding-right: 1rem;
-}
+} */
 
 .address-subtitle{
     font-size: 0.7rem;
     font-weight: 600;
     letter-spacing: 0.1rem;
+    font-size: clamp(0.6rem, 0.85vw, 1rem);
 }
 
 .address-title{
     font-size: 1.68rem;
     font-weight: 400;
+    font-size: clamp(1.68rem, 4vw, 2.3rem);
 }
 
 .address-description{
     color: #4A564E;
-    font-size: 0.85rem;
+        font-size: clamp(0.95rem, 1.2vw, 1.5rem);
     line-height: 150%;
 }
 
@@ -44,12 +52,10 @@
 .address-info-container{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
-    margin-bottom: 2rem;
+    gap: 1rem;  
 }
 
 .address-location, .address-schedule{
-    display: inline-block;
     width: 50%;
 }
 
@@ -64,39 +70,55 @@
 
 .address-map-container{
     width: 100%;
-    height: 35vh;
+    height: 50vh;
     border: solid #E0D5C7 2px;
     border-radius: 15px;
     overflow: hidden;
-    margin-bottom: 2rem;
 }
 
 .address-map-container iframe{
     width: 100%;
     height: 100%;
     border: 0;
-    display: block;
+    /* display: block; */
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.left-container, .address-map-container{
+        flex: 1 1 200px;
+}
+
+.form-parent{
+    width: 100%;
 }
 
 .form-container{
     background-color: #1c2e24;
     color: white;
     display: flex;
+    width: 100%;
     flex-direction: column;
     gap: 0.5rem;
     justify-content: center;
     align-items: center;
-    padding: 1.8rem;
+    padding-block: min(3em, 12%);
+    padding-inline: clamp(1rem, 10vw, 30rem);
     border-radius: 20px;
 }
 
 .newsletter-title{
     font-weight: 400;
+    text-align: center;
+    font-size: clamp(1.68rem, 4vw, 2.3rem);
 }
 
 .newsletter-description{
     font-weight: 100;
-    font-size: 0.75rem;
+    font-size: clamp(0.75rem, 1.2vw, 1.5rem);
     text-align: center;
     line-height: 150%;
     opacity: 70%;
@@ -104,10 +126,10 @@
 
 .form-details{
     display: flex;
+    flex-wrap: wrap;
     width: 100%;
     height: auto;
     gap: 0.8rem;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-top: 1rem;
@@ -118,8 +140,9 @@
     height: auto;
     border-radius: 20px;
     padding: 0.5rem;
-    border: none;
+    border: none;   
 }
+
 
 .form-email{
     background-color: #31443a;
@@ -127,6 +150,8 @@
     border: solid #66736c 1px;
     outline: none;
     padding: 0.8rem;
+    flex: 1 1 350px;
+    min-width: 0;
 }
 
 .form-email::placeholder{
@@ -137,44 +162,11 @@
 .form-button{
     font-weight: 500;
     padding: 0.8rem;
+    flex: 1 1 100px;
 }
 
-@media (min-width: 768px) {
-    .address-section{
-        display: flex;
-        gap: 1.5rem;
-        flex-direction: column;
-        padding-bottom: 4rem;
-    }
-
+@media (min-width: 630px) {
     .address-map-container{
-        display: flex;
-        width: 100%;
-        height: 20vh;
-        margin-bottom: 0;
-    }
-    .form-container{
-        padding: 2rem 10rem;
-    }
-
-    .newsletter-title{
-        font-size: 2rem;
-    }
-
-    .newsletter-description{
-        font-size: 1rem;
-    }
-    
-    .form-details{
-        display: flex;
-        flex-direction: row;
-    }
-
-    .form-email{
-        flex: 4;
-    }
-
-    .form-button{
-        flex: 1;
+        height: auto;
     }
 }
