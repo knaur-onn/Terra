@@ -8,13 +8,13 @@ function Footer() {
         <div className="footer-text">
           <img className="footer-logo" src={Logo} alt="" />
           <p className="footer-description sub-text">
-            Providingf modern architectural plants, bespoke pottery, and
+            Providing modern architectural plants, bespoke pottery, and
             personalized care simple methodology since 2018.
           </p>
         </div>
         <div className="footer-links">
           <div className="anchor-links sub-text">
-            <h5 className="">SHOP</h5>
+            <h5 className="anchor-title">SHOP</h5>
             <a href="">Houseplants</a>
             <a href="">Ceramics</a>
           </div>
