@@ -14,7 +14,8 @@
 }
 
 .card-logo{
-    max-width: 50px;
+    width: clamp(2rem, 4vw, 50rem);
+    height: auto;
 }
 
 .card-logo, .card-header{
@@ -24,13 +25,26 @@
 .card-header{
     color: #1C2E24;
     font-family: "Fraunces", serif;
-    font-size: clamp(1.2rem, 1vw, 2.5rem);
+    font-size: clamp(1.2rem, 1.2vw, 2.5rem);
 }
 
 .card-subheader{
     color: #4A564E;
     font-family: "Instrument Sans", sans-serif;
-    font-size: clamp(0.8rem, calc(0.5vw + 0.5rem), 2.5rem);
+    font-size: clamp(0.8rem, calc(0.6vw + 0.5rem), 3rem);
     line-height: 150%;
 }
 
+@media (min-width: 544px) {
+    .card-container{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+@media (min-width: 1595px){
+    .card-logo{
+        max-width: 500rem;
+    }
+}

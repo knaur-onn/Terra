@@ -103,7 +103,8 @@ hr{
 
 .footer-end{
     background-color: #F4EDE2;
-    padding: 2rem 1.5rem;
+    padding-inline: clamp(2rem, 3vw, 20rem);
+    padding-bottom: min(3em, 6%);
     
 }
 

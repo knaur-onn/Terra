@@ -27,21 +27,22 @@
 } */
 
 .address-subtitle{
+    color: #1C2E24;
     font-size: 0.7rem;
     font-weight: 600;
     letter-spacing: 0.1rem;
-    font-size: clamp(0.6rem, 0.85vw, 1rem);
+    font-size: clamp(0.6rem, 0.85vw, 1.5rem);
 }
 
 .address-title{
     font-size: 1.68rem;
     font-weight: 400;
-    font-size: clamp(1.68rem, 4vw, 2.3rem);
+    font-size: clamp(1.68rem, 4vw, 3.5rem);
 }
 
 .address-description{
     color: #4A564E;
-        font-size: clamp(0.95rem, 1.2vw, 1.5rem);
+        font-size: clamp(0.95rem, 1.2vw, 1.7rem);
     line-height: 150%;
 }
 
@@ -61,11 +62,12 @@
 
 .location-title, .schedule-title{
     margin-bottom: 0.3rem;
+    font-size: clamp(0.9rem, 1vw, 1.5rem);
 }
 
 .location-text, .schedule-text{
     color: #4A564E;
-    font-size: 0.9rem;
+    font-size: clamp(0.9rem, 1vw, 1.5rem);
 }
 
 .address-map-container{
@@ -89,7 +91,7 @@
 }
 
 .left-container, .address-map-container{
-        flex: 1 1 200px;
+    flex: 1 1 200px;
 }
 
 .form-parent{
@@ -108,6 +110,7 @@
     padding-block: min(3em, 12%);
     padding-inline: clamp(1rem, 15vw, 30rem);
     border-radius: 20px;
+    margin-top: clamp(1rem, 4vh, 5rem);
 }
 
 .newsletter-title{

@@ -29,7 +29,7 @@
 .method-card-header{
     color: #1C2E24;
     font-family: "Fraunces", serif;
-    font-size: clamp(1.3rem, 2vw, 2rem);
+    font-size: clamp(1.3rem, 2vw, 3.5rem);
 }
 
 .method-card-subheader, .method-card-description{
@@ -39,13 +39,13 @@
 
 .method-card-subheader{
     color: #4F6B58;
-    font-size: clamp(0.7rem, 0.8vw, 1rem);
+    font-size: clamp(0.7rem, 0.8vw, 2rem);
     font-weight: 700;
     letter-spacing: 0.05rem;
 }
 
 .method-card-description{
-    font-size: clamp(0.95rem, 1.2vw, 1.5rem);
+    font-size: clamp(0.95rem, 1.2vw, 1.8rem);
     line-height: 150%;
 }
 .method-card-subheader, .method-card-header{
