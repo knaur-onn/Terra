@@ -170,3 +170,9 @@
         height: auto;
     }
 }
+
+@media (min-width: 1595px) {
+    .address-section{
+        padding-inline: clamp(10.97rem, 16vw, 100rem);
+    }
+}

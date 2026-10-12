@@ -7,16 +7,15 @@
     padding-inline: clamp(1rem, 11vw, 20rem);
 }
 
-/* .promise-card{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-} */
-
-
 .promise-card{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.5rem;
+}
+
+@media (min-width: 1595px) {
+    .promise-section{
+        padding-inline: clamp(10.97rem, 16vw, 100rem);
+    }
 }
