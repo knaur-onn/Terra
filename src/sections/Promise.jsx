@@ -8,7 +8,7 @@ import "../styles/Promise.css";
 function Promise() {
   return (
     <>
-      <section className="promise-section">
+      <section className="promise-section" id="promise">
         <Title
           subtitle="THE TERRA PROMISE"
           mainTitle="Nurtured from sprout to root"

@@ -12,7 +12,7 @@ import "../styles/Collections.css";
 function Collections() {
   return (
     <>
-      <section className="collections-section">
+      <section className="collections-section" id="collections">
         <Title
           subtitle="CURATED COLLECTION"
           mainTitle="Foliage for modern spaces"

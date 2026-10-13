@@ -61,6 +61,11 @@
     color: #4A564E;
     font-size: clamp(0.8rem,1vw,2rem);
     text-decoration: none;
+    cursor: pointer;
+}
+
+.anchor-links a:hover{
+    border-bottom:#ccb698 2px solid;
 }
 
 .text-logo-container{
@@ -99,6 +104,10 @@ hr{
     color: #4A564E;
     text-decoration: none;
     font-size: clamp(0.7rem,1vw,2rem);
+}
+
+.footer-subtag a:hover{
+    border-bottom: #ccb698 2px solid;
 }
 
 .footer-end{

@@ -5,7 +5,7 @@ import "../styles/Reviews.css";
 function Reviews() {
   return (
     <>
-      <section className="reviews-section">
+      <section className="reviews-section" id="review">
         <Title subtitle="REVIEWS" mainTitle="Sustained by our community" />
         <div className="reviews-card">
           <ReviewsCard

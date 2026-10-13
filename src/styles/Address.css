@@ -152,20 +152,32 @@
     color: white;
     border: solid #66736c 1px;
     outline: none;
-    padding: 0.8rem;
-    flex: 1 1 500px;
+    padding-block: clamp(0.8rem, 1vw, 1rem);
+    padding-inline: clamp(0.8rem, 1vw, 1rem);
+    flex: 1 1 400px;
     min-width: 0;
+    font-size: clamp(0.8rem, 1vw, 1.5rem);
 }
 
 .form-email::placeholder{
     color: white;
     opacity: 60%;
+    text-align: left;
+    font-size: clamp(0.8rem, 1vw, 1.2rem);
 }
 
 .form-button{
     font-weight: 500;
-    padding: 0.8rem;
-    flex: 1 1 100px;
+    padding: clamp(0.8rem, 1vw, 1rem);
+    flex: 1 1 50px;
+    height: 100%;
+    font-size: clamp(0.8rem, 1vw, 1rem);
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.form-button:hover{
+    background-color:#faf6f0bb;
 }
 
 @media (min-width: 630px) {
@@ -177,5 +189,8 @@
 @media (min-width: 1595px) {
     .address-section{
         padding-inline: clamp(10.97rem, 16vw, 100rem);
+    }
+    .form-button{
+        max-width: 150px;
     }
 }

@@ -3,7 +3,7 @@ import "../styles/Address.css";
 function Address() {
   return (
     <>
-      <section className="address-section">
+      <section className="address-section" id="address">
         <div className="left-container">
           <div className="address-text-container text">
             <p className="address-subtitle sub-text text">VISIT OUR NURSERY</p>

@@ -4,7 +4,7 @@ import landingImage from "../assets/landing-image.svg";
 function Landing() {
   return (
     <>
-      <section className="landing-page">
+      <section className="landing-page" id="landing">
         <div className="landing-text">
           <h4 className="landing-small-header text-landing">BOTANICAL MODERNISM</h4>
           <h1 className="landing-header text-landing">

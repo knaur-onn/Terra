@@ -7,7 +7,7 @@ import "../styles/CareTips.css";
 function CareTips() {
   return (
     <>
-      <section className="caretips-section">
+      <section className="caretips-section" id="caretips">
         <Title
           subtitle="CARE MADE SIMPLE"
           mainTitle="How to cultivate longevity"
