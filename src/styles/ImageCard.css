@@ -25,9 +25,9 @@
     background-color: white;
     display: inline-block;
     font-family: "Instrument Sans", sans-serif;
-    font-size: clamp(0.6rem, 1vw, 0.65rem);
+    font-size: clamp(0.6rem, 0.8vw, 1.2rem);
     font-weight: 500;
-    border-radius: 10px;
+    border-radius: 20rem;
     padding: min(0.8em, 2.6%);
     position: absolute;
     top: 0.8rem;
